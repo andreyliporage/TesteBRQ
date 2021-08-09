@@ -29,7 +29,7 @@ export class BaseComponent {
             this.toastr.error('Falha de conexão', 'Erro');
         }
         else if (falha.status === 400) {
-            this.toastr.error(falha.message, 'Erro');
+            this.toastr.error(falha.error, 'Erro');
         }
     }
 

@@ -17,14 +17,13 @@ export class BaseService {
     let error: string[] = [];
 
     if (resposta instanceof HttpErrorResponse) {
-      if (resposta.status === 0) {
-        error.push("Erro de conexão. Tente novamente");
+      if (resposta.statusText === 'Unknown Error') {
+        error.push("Ocorreu um erro desconhecido");
         resposta.error.errors = error;
       }
 
       if (resposta.status === 400) {
         error.push(resposta.message);
-        resposta.error.errors = error;
       }
     }
 

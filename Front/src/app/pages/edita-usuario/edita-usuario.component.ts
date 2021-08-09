@@ -45,10 +45,8 @@ export class EditaUsuarioComponent extends BaseComponent implements OnInit {
   editaUsuario() {
     this.usuario = Object.assign({}, this.usuario, this.formularioCadastrao.value);
     this.formularioCadastrao.get('sexo')?.value === '1' ? this.usuario.sexo = ESexo.Masculino : this.usuario.sexo = ESexo.Feminimo;
-    this.usuarioService.put(this.usuario).subscribe(() => {
-      this.processaSucesso('Usuário editado com sucesso', '/'),
-        (falha: HttpErrorResponse) => this.processaFalha(falha);
-    });
+    this.usuarioService.put(this.usuario).subscribe(() => this.processaSucesso('Usuário editado com sucesso', '/'),
+      (falha: HttpErrorResponse) => this.processaFalha(falha));
   }
 
 }

@@ -28,6 +28,12 @@ namespace BRQ.Infra.Repositories
             return _context.Connection.QueryFirst<Usuario>(sql, new { id });
         }
 
+        public Usuario Get(string cpf)
+        {
+            var sql = "SELECT * FROM [User] WHERE [Cpf] = @Cpf";
+            return _context.Connection.QueryFirst<Usuario>(sql, new { cpf });
+        }
+
         public int Post(Usuario usuario)
         {
             var sql = @"INSERT INTO [User] VALUES(

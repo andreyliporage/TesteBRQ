@@ -56,6 +56,8 @@ namespace BRQ.Api.Controllers
         {
             try
             {
+                var usuarioCadastrado = _repository.Get(usuario.Cpf);
+                if (usuarioCadastrado != null) throw new Exception("Já existe usuário cadastrado com esse CPF");
                 var id = _repository.Post(usuario);
                 var novoUsuario = _repository.Get(id);
                 return Created(new Uri(Url.Link("GetById", new { id = novoUsuario.Id })), novoUsuario);

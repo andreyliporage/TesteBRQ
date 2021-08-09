@@ -37,10 +37,9 @@ export class CadastraUsuarioComponent extends BaseComponent implements OnInit {
   criaUsuario() {
     this.usuario = Object.assign({}, this.usuario, this.formularioCadastrao.value);
     this.formularioCadastrao.get('sexo')?.value === '1' ? this.usuario.sexo = ESexo.Masculino : this.usuario.sexo = ESexo.Feminimo;
-    this.usuarioService.post(this.usuario).subscribe(() => {
-      this.processaSucesso('Usuário criado com sucesso', '/'),
-        (falha: HttpErrorResponse) => this.processaFalha(falha);
-    });
+    this.usuarioService.post(this.usuario).subscribe(() => this.processaSucesso('Usuário criado com sucesso', '/'),
+      (falha: HttpErrorResponse) => this.processaFalha(falha)
+    );
   }
 
 }
