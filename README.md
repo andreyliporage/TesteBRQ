@@ -8,9 +8,9 @@
 ## Métodos disponíveis:
 
 ### Criar usuário
-Método: `POST`
-Enpoint: `localhost:5000/api/usuarios`
-Retorno: `Retorna o objeto criado`
+Método: `POST` <br>
+Enpoint: `localhost:5000/api/usuarios` <br>
+Retorno: `Retorna o objeto criado` <br>
 JSON:
 ```json
 {
@@ -26,9 +26,9 @@ JSON:
 ---
 
 ### Listar usuário
-Método: `GET`
-Endpoint: `localhost:5000/api/usuarios`
-Retorno: `Retorna uma listagem com todos os usuários`
+Método: `GET` <br>
+Endpoint: `localhost:5000/api/usuarios` <br>
+Retorno: `Retorna uma listagem com todos os usuários` <br>
 JSON:
 ```json
 [
@@ -55,13 +55,13 @@ JSON:
 ---
 
 ### Editar usuário
-Método: `PUT`
-Endpoint: `localhost:5000/api/usuarios/{idUsuario}`
+Método: `PUT` <br>
+Endpoint: `localhost:5000/api/usuarios/{idUsuario}` <br>
 Retorno:: `204 NO CONTENT`
 
 ---
 
 ### Excluir usuário
-Método: `DELETE`
-Endpoint: `localhost:5000/api/usuarios/{idUsuario}`
+Método: `DELETE` <br> 
+Endpoint: `localhost:5000/api/usuarios/{idUsuario}` <br>
 Retorno: `204 NO CONTENT`
