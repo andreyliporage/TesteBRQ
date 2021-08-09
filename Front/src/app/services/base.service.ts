@@ -19,12 +19,12 @@ export class BaseService {
     if (resposta instanceof HttpErrorResponse) {
       if (resposta.status === 0) {
         error.push("Erro de conexão. Tente novamente");
-        resposta.error.erros = error;
+        resposta.error.errors = error;
       }
 
       if (resposta.status === 400) {
         error.push(resposta.message);
-        resposta.error.erros = error;
+        resposta.error.errors = error;
       }
     }
 

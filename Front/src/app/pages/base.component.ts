@@ -19,19 +19,17 @@ export class BaseComponent {
         this.toastr.success(mensagemSucesso, 'Sucesso');
     }
 
-    protected processaFalha(falha: HttpErrorResponse) {
-        if (falha.status === 400) {
-            let keys = Object.keys(falha.error.errors);
-            keys.forEach(key => {
-                falha.error.errors[key].forEach((mensagem: string) => {
-                    this.toastr.error(mensagem, 'Erro')
-                });
-            });
+    protected processaFalha(falha: HttpErrorResponse, mensagemErro?: string) {
+        if (mensagemErro !== undefined) {
+            this.toastr.error(mensagemErro, 'Errp');
+            return;
+        }
 
-        } else if (falha.status === 0) {
-            this.toastr.error(falha.error?.title);
-        } else {
-            this.toastr.error(falha.error.errors[0].message, 'Erro')
+        if (falha.status === 0) {
+            this.toastr.error('Falha de conexão', 'Erro');
+        }
+        else if (falha.status === 400) {
+            this.toastr.error(falha.message, 'Erro');
         }
     }
 

@@ -21,10 +21,26 @@ CREATE NONCLUSTERED INDEX [IX_User_Email] ON [User]([Email])
 CREATE NONCLUSTERED INDEX [IX_User_Cpf] ON [User]([Cpf])
 
 INSERT INTO [User] VALUES (
-    'Andrey Liporage de Matos',
-    '17215445771',
-    'andrey@test.com',
+    'Lebron James',
+    '92417320088',
+    'lebron@nba.com',
     '970770825',
     1,
-    '1900-01-01 00:00:00'
+    '1984-12-30 00:00:00'
+),
+(
+    'Kevin Durant',
+    '29893272076',
+    'durant@nba.com',
+    '970770825',
+    1,
+    '1988-09-29 00:00:00'
+),
+(
+    'Hortência Marcari',
+    '30532807014',
+    'hortencia@nba.com',
+    '970770825',
+    2,
+    '1959-09-23 00:00:00'
 )

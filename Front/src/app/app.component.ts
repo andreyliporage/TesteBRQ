@@ -19,7 +19,7 @@ export class AppComponent {
 
   listenToLoading(): void {
     this.loadingService.loadingSub
-      .pipe(delay(20))
+      .pipe(delay(0))
       .subscribe((loading) => this.loading = loading)
   }
 }
