@@ -1,0 +1,17 @@
+/home/andreyliporage/Documentos/dev/TesteBRQ/Back/BRQ.Infra/bin/Debug/net5.0/BRQ.Infra.deps.json
+/home/andreyliporage/Documentos/dev/TesteBRQ/Back/BRQ.Infra/bin/Debug/net5.0/BRQ.Infra.dll
+/home/andreyliporage/Documentos/dev/TesteBRQ/Back/BRQ.Infra/bin/Debug/net5.0/ref/BRQ.Infra.dll
+/home/andreyliporage/Documentos/dev/TesteBRQ/Back/BRQ.Infra/bin/Debug/net5.0/BRQ.Infra.pdb
+/home/andreyliporage/Documentos/dev/TesteBRQ/Back/BRQ.Infra/bin/Debug/net5.0/BRQ.Domain.dll
+/home/andreyliporage/Documentos/dev/TesteBRQ/Back/BRQ.Infra/bin/Debug/net5.0/BRQ.Shared.dll
+/home/andreyliporage/Documentos/dev/TesteBRQ/Back/BRQ.Infra/bin/Debug/net5.0/BRQ.Domain.pdb
+/home/andreyliporage/Documentos/dev/TesteBRQ/Back/BRQ.Infra/bin/Debug/net5.0/BRQ.Shared.pdb
+/home/andreyliporage/Documentos/dev/TesteBRQ/Back/BRQ.Infra/obj/Debug/net5.0/BRQ.Infra.csproj.AssemblyReference.cache
+/home/andreyliporage/Documentos/dev/TesteBRQ/Back/BRQ.Infra/obj/Debug/net5.0/BRQ.Infra.GeneratedMSBuildEditorConfig.editorconfig
+/home/andreyliporage/Documentos/dev/TesteBRQ/Back/BRQ.Infra/obj/Debug/net5.0/BRQ.Infra.AssemblyInfoInputs.cache
+/home/andreyliporage/Documentos/dev/TesteBRQ/Back/BRQ.Infra/obj/Debug/net5.0/BRQ.Infra.AssemblyInfo.cs
+/home/andreyliporage/Documentos/dev/TesteBRQ/Back/BRQ.Infra/obj/Debug/net5.0/BRQ.Infra.csproj.CoreCompileInputs.cache
+/home/andreyliporage/Documentos/dev/TesteBRQ/Back/BRQ.Infra/obj/Debug/net5.0/BRQ.Infra.csproj.CopyComplete
+/home/andreyliporage/Documentos/dev/TesteBRQ/Back/BRQ.Infra/obj/Debug/net5.0/BRQ.Infra.dll
+/home/andreyliporage/Documentos/dev/TesteBRQ/Back/BRQ.Infra/obj/Debug/net5.0/ref/BRQ.Infra.dll
+/home/andreyliporage/Documentos/dev/TesteBRQ/Back/BRQ.Infra/obj/Debug/net5.0/BRQ.Infra.pdb

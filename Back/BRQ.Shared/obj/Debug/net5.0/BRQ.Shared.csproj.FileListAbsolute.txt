@@ -1,0 +1,12 @@
+/home/andreyliporage/Documentos/dev/TesteBRQ/Back/BRQ.Shared/bin/Debug/net5.0/BRQ.Shared.deps.json
+/home/andreyliporage/Documentos/dev/TesteBRQ/Back/BRQ.Shared/bin/Debug/net5.0/BRQ.Shared.dll
+/home/andreyliporage/Documentos/dev/TesteBRQ/Back/BRQ.Shared/bin/Debug/net5.0/ref/BRQ.Shared.dll
+/home/andreyliporage/Documentos/dev/TesteBRQ/Back/BRQ.Shared/bin/Debug/net5.0/BRQ.Shared.pdb
+/home/andreyliporage/Documentos/dev/TesteBRQ/Back/BRQ.Shared/obj/Debug/net5.0/BRQ.Shared.csproj.AssemblyReference.cache
+/home/andreyliporage/Documentos/dev/TesteBRQ/Back/BRQ.Shared/obj/Debug/net5.0/BRQ.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/home/andreyliporage/Documentos/dev/TesteBRQ/Back/BRQ.Shared/obj/Debug/net5.0/BRQ.Shared.AssemblyInfoInputs.cache
+/home/andreyliporage/Documentos/dev/TesteBRQ/Back/BRQ.Shared/obj/Debug/net5.0/BRQ.Shared.AssemblyInfo.cs
+/home/andreyliporage/Documentos/dev/TesteBRQ/Back/BRQ.Shared/obj/Debug/net5.0/BRQ.Shared.csproj.CoreCompileInputs.cache
+/home/andreyliporage/Documentos/dev/TesteBRQ/Back/BRQ.Shared/obj/Debug/net5.0/BRQ.Shared.dll
+/home/andreyliporage/Documentos/dev/TesteBRQ/Back/BRQ.Shared/obj/Debug/net5.0/ref/BRQ.Shared.dll
+/home/andreyliporage/Documentos/dev/TesteBRQ/Back/BRQ.Shared/obj/Debug/net5.0/BRQ.Shared.pdb
